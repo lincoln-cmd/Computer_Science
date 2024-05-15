@@ -1,0 +1,14 @@
+<CPU의 기본 구조>
+
+CPU가 수행하는 동작
+ - 명령어 인출(Instruction fetch): 기억장치에 있는 데이터를 읽어오는 것
+ - 명령어 해독(Instruction decode): 수행 동작을 위해 데이터를 해석하는 것
+ - 데이터 인출(Data fetch): 명령 시행을 위해서 기억장치나 I/O에서 데이터를 읽어오는 것
+ - 데이터 처리(Data Process): 산술, 논리적 연산
+ - 데이처 저장(Data store): 데이터를 저장
+
+CPU의 기본 구조
+ - 산술논리연산장치(Arithmetic and Logical Unit: ALU): 산술 및 논리 연산 회로 및 모듈의 집합 
+ - 레지스터 세트(Register set): 저장 장치(기억 장치). 엑세스 속도가 모든 기억 장치 중에서 가장 빠름. CPU가 임시로 저장하는 장치. 특수 목적, 일반 목적 레지스터 포함
+ - 제어 유닛(Control unit): 제어 신호들을 발생시키는 하드웨어 모듈
+ - CPU 내부 버스: CPU 내부 구성 요소들 간의 정보 전송 통로
