@@ -5,7 +5,7 @@ CPU가 수행하는 동작
  - 명령어 해독(Instruction decode): 동작 수행을 위해 데이터를 해석하는 것
  - 데이터 인출(Data fetch): 명령 시행을 위해서 기억장치나 I/O에서 데이터를 읽어오는 것
  - 데이터 처리(Data Process): 산술, 논리적 연산
- - 데이처 저장(Data store): 데이터를 저장
+ - 데이터 저장(Data store): 데이터를 저장
 
 CPU의 기본 구조
  - 산술논리연산장치(Arithmetic and Logical Unit: ALU): 산술 및 논리 연산 회로 및 모듈의 집합 
