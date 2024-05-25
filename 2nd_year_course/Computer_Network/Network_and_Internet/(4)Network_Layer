@@ -1,0 +1,21 @@
+<네트워크 계층>
+
+
+네트워크 계층(Network Layer)
+  - 패킹을 발신지-목적지 전달에 대한 책임을 가짐
+
+  - 기능:
+      - 발신지-목적지 전달(packet)
+      - 논리 주소 지정(Logical addressing): 상위 계층에서 받은 패킷에 발신지와 목적지의 논리주소를 헤더에 추가
+      - 라우팅(Routing): 패킷이 최종 목적지에 전달될 수 있도록 경로를 지정하거나 교환 기능
+
+
+네트워크 계층의 주요 프로토콜
+  - CIMP(Internet Contol Message Protocol)
+      - 에러 발생 시 에러 발생 원인을 알려주거나 네트워크 상태를 진단해주는 기능
+  - IGMP(Internet Group Management Protocol)
+      - 호스트(컴퓨터)가 멀티캐스트 그룹 구성원을 인접한 라우터에게 알리는 프로토콜
+  - IP(Internet Protocol)
+      - 네트워크 기기에서 논리적 식별을 위한 주소
+          - IPv4: 약 40억개의 주소 ex) 123.321.234.232
+          - IPv6: 2의 128제곱의 개수를 가진 주소 ex) 21DA:00D3:0:2F3A:20AB:00FF:FB13:46CA
