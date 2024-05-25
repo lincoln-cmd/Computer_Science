@@ -1,0 +1,56 @@
+<네트워크 계층별 역할>
+
+
+OSI 7 계층
+  - 응용계층: Email, Web 브라우저, FTP, ping, application
+  - 표현계층: 문법, 구문, 체계 확립
+  - 세션계층: 프로그램간의 논리적 접속
+  - 전송계층: 양쪽 끝간의 신회성 보장
+  - 네트워크계층: 해당 주소 체계에 따라 경로 설정
+  - 데이터링크 계층: 두 node간의 통신관여, 흐름제어
+  - 물리계층: 일련의 2진 bit(전기적 신호를 매체로 전달)
+
+
+
+TCP/IP 계층
+  - 응용계층
+  - 전송계층: TCP/ UDP
+  - 네트워크 계층: IPv4, IPv6
+  - 물리계층
+
+
+
+종단간의 연결
+
+        A                                                        B
+        ↓                                                        ↑
+    Application  <---------------------------------------->   Application
+    Transport    <---------------------------------------->   Transport
+    Network      <->    Network      <->   Network      <->   Network
+    Data Link    <->    Data Link    <->   Data Link    <->   Data Link
+    Physical     <->    Physical     <->   Physical     <->   Physical
+
+
+
+물리 계층(Pyhsical Layer)
+  - 물리적 매체를 통한 '비트 스트림 전송에 요구되는 기능'을 담당 (기계적, 전기적, 전송매체)
+  - 물리적인 장치와 인터페이스가 전송을 위해 필요한 기능과 처리절차 규정
+
+  주요 기능:
+        - 인터페이스와 매체의 물리적인 특성: 장치와 전송매체 간의 인터페이스 특성을 규정
+        - 비트의 표현: 비트를 전송하기 위해 전기적 또는 광학적인 신호로 부호화
+        - 데이터 속도: 신호가 유지되는 비트의 주기를 규정
+        - 비트의 동기화: 송신자와 수신자는 같은 클럭을 사용
+
+
+
+물리계층 프로토콜
+  - MAC(Medium Access Control)
+      - 자유경쟁(선착순): Aloha, Slotted Aloha(간격 할당), CSMA(Carrier Sense Multiple Access), CSMA/CD(CSMACollison Detction)
+      - Token
+
+
+  - CSMA/CD -> IEEE 802.3
+      - 한 slot의 크기 잼 신호 = 51.2 us = 64byte 전송소요 시간
+      - 충돌 감지, 일정 시간 대기 후 재전송
+      - 16번까지 재시도
