@@ -1,0 +1,19 @@
+<응용 계층>
+
+
+응용 계층(Application Layer)
+    - 사용자가 네트워크에 접근할 수 있도록 해 줌
+    - 사용자 인터페이스 제공
+    - 서비스: 원격 로그인, 파일 액세스, 전송, 관리, 메일 서비스(Mail services), Http wwww 웹 등
+
+
+Application 계층의 포로토콜 및 프로그램
+    - FTP(File Transfer Protocol)
+    - Tenlnet
+    - SMTP(Simple Mail Transfer Protocol)
+    - DNS(Domain Name System): 도메인 주소를 활용해서 IP주소를 얻어오는 기능
+    - HTTP
+    - DHCP: 동적 IP 할당을 위해 사용
+    - Ping
+    - Tcpdump
+    - Tracerouter
