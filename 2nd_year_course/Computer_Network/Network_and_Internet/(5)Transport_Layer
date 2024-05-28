@@ -24,11 +24,13 @@
           - 연결형 서비스로 가상 회선 방식을 제공
           - 신뢰성을 보장하며 3-way handshaking 과정을 통해 연결
           - 전이중(Full-Duplex), 점대점(Point to Point) 방식
+          - 복잡한 구조
       - UDP(User Datagram Protocol)
           - 비연결형 서비스로 데이터그램 방식을 제공
           - 신뢰성이 낮다
           - TCP보다 속도가 빠르다
           - 영화등 멀티미디어 데이터 전송에 적합
+          - 단순한 구조
       - SCTP(Stream Control Transmission Protocol)
           - SCTP는 UDP와 TCP의 특성을 결합
           - UDP나 TCP와 유사하며 다중 연결을 지원
