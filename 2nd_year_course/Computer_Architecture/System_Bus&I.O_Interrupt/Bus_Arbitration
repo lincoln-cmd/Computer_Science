@@ -1,0 +1,41 @@
+<버스 중재(Bus Arbitration)>
+
+
+버스 중재 방식
+  - 버스 경합(bus contention): 두 개 이상의 버스 마스터들이 동시에 버스 사용을 위해 경쟁하는 상황
+  - 버스 중재기(bus arbiter): 버스 중재 기능을 수행하는 하드웨어 모듈
+  - 버스 중재 방식:
+      - 병렬 중재 방식(parallel arbitration scheme)
+      - 직렬 중재 방식(serial arbitration scheme)
+
+
+
+중재기의 위치에 따른 분류
+  - 중앙집중식 중재 방식(centralized arbitration scheme):
+      한 개의 버스 중재기가 모든 버스 중재 기능을 수행하는 방식
+
+  - 분산식 중재 방식(decentralized arbitration scheme):
+      버스 중재 동작이 각 버스 마스터가 별도로 가지고 있는 버스 중재기들에 의해 이루어지는 방식
+
+
+
+병렬 중재 방식
+  - 중앙 집중식 고정-우선순위 방식
+  - 분산식 고정-우선순위 방식
+  - 가변 우선순위 방식
+      - 회전 우선 순위 (Rotating priority)
+      - 임의 우선순위 (Random priority)
+      - 동등 우선순위 (Equal priority)
+      - 최소-최근 사용 (Least-recently used)
+
+
+
+직렬 중재 방식
+  - 중앙 집중식 직렬 중재 방식
+  - 분산식 직렬 중재 방식
+
+
+
+폴링 방식 (Polling schemem)
+  - 하드웨어 폴링 방식 (Hardware polling schemem): 중재기 내의 고정된 하드웨어를 이용한 주기적 검사를 통해 중재 기능을 수행하는 방식
+  - 소프트웨어 폴링 방식 (Software polling scheme): 중재기 내의 프로세서가 중재 프로그램을 수행하면서 다양한 중재 기능을 수행하는 방식
